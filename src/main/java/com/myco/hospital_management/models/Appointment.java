@@ -14,6 +14,7 @@ public class Appointment {
       private long patientId;
       private long doctorId;
       private String reason;
+      private String email;
 
       //Getter and  stter for id,patientId,doctorId,reason
       public Long getId() {
@@ -39,5 +40,11 @@ public class Appointment {
       }
       public void setReason(String reason) {
           this.reason = reason;
+      }
+       public String getEmail() {
+        return email;
+      }
+    public void setEmail(String email) {
+        this.email = email;
       }
 }
